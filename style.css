@@ -36,3 +36,8 @@ a:hover {
     color: #265015;
     background-color: #cf9800;
 }
+
+img {
+    max-width: 800px;
+    border-radius: 20px;
+}
