@@ -4,3 +4,11 @@ body {
     background-color: #B7C9B0;
     color: #265015;
 }
+
+
+body {
+    margin: 100px;
+    padding: 10px;
+    max-width: 800px;
+}
+
