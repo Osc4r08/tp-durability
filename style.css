@@ -5,16 +5,17 @@ body {
     padding: 10px;
     background-color: #afdaff;
     max-width: 800px;
+    color: #000629;
 }
 
 h1,h2 {
     text-align: center;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000000;
     padding-bottom: 10px;
 }
 
 a, a:hover {
-    color: #000;
+    color: #265015;
     text-decoration: underline;
 }
 
@@ -27,6 +28,14 @@ table, th, td {
     border: 1px solid #000;
     border-collapse: collapse;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #B7C9B0;
+}
+
+header {
+    background-color: #265015;
+    color: #B7C9B0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
 }
 
