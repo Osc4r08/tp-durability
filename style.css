@@ -12,3 +12,14 @@ body {
     max-width: 800px;
 }
 
+
+h1,h2 {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    color: #494949;
+}
+
+h2 {
+    text-decoration: underline;
+}
