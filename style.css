@@ -1,41 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 2;
-    margin: 100px;
-    padding: 10px;
-    background-color: #afdaff;
-    max-width: 800px;
-    color: #000629;
-}
-
-h1,h2 {
-    text-align: center;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 10px;
-}
-
-a, a:hover {
-    color: #265015;
-    text-decoration: underline;
-}
-
-img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-table, th, td {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    padding: 10px;
+    line-height: 1.5;
     background-color: #B7C9B0;
+    color: #265015;
 }
-
-header {
-    background-color: #265015;
-    color: #B7C9B0;
-    padding: 20px;
-    text-align: center;
-    border-radius: 20px;
-}
-
