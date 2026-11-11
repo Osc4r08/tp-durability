@@ -41,3 +41,10 @@ img {
     max-width: 800px;
     border-radius: 20px;
 }
+
+table, th, td {
+    border: 1px solid #265015;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: #B7C9B0;
+}
