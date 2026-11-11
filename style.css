@@ -23,3 +23,16 @@ h1,h2 {
 h2 {
     text-decoration: underline;
 }
+
+a, a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #cf9800;
+}
+
+a:hover {
+    color: #265015;
+    background-color: #cf9800;
+}
