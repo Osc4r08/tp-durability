@@ -62,3 +62,9 @@ section {
     border-radius: 20px;
     box-shadow: 0 4px 8px #cf9800;
 }
+
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
