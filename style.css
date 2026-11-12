@@ -76,3 +76,15 @@ footer {
     color: #265015;
     border-radius: 20px;
 }
+
+.outils {
+position: fixed;
+top: 12px;
+right: 12px;
+display: flex;
+flex-direction: column;
+gap: 6px;
+padding: 10px;
+background-color: rgb(0, 0, 0);
+border-radius: 20px;
+}
