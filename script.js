@@ -10,3 +10,12 @@ boutonTheme.addEventListener("click", function() {
         boutonTheme.textContent = "Mode clair";
     }
 });
+
+const curseur = document.querySelector("#curseur-taille");
+const valeurTaille = document.querySelector("#valeur-taille");
+
+curseur.addEventListener("input", function() {
+    const taille = curseur.value;
+    document.body.style.fontSize = curseur.value + "%";
+    valeurTaille.textContent = curseur.value + "%";
+});
