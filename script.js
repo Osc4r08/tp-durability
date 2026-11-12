@@ -19,3 +19,14 @@ curseur.addEventListener("input", function() {
     document.body.style.fontSize = curseur.value + "%";
     valeurTaille.textContent = curseur.value + "%";
 });
+
+const heure = new Date().getHours();
+const salutation = document.querySelector("#salutation");
+
+if (heure >= 5 && heure < 12) {
+    salutation.textContent = "Bonjour !";
+} else if (heure >= 12 && heure < 18) {
+    salutation.textContent = "Bon après-midi !";
+} else {
+    salutation.textContent = "Bonsoir !";
+}
