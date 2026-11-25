@@ -30,3 +30,15 @@ if (heure >= 5 && heure < 12) {
 } else {
     salutation.textContent = "Bonsoir !";
 }
+
+
+const resultat = document.querySelector("#resultat");
+
+ document.querySelector("#bouton-calculer").addEventListener("click", function() {
+    const nb_page = Number(document.querySelector("#nombre-pages").value);
+    const pd_page = Number(document.querySelector("#poids-page").value);
+
+    const calcul = Math.round(nb_page * pd_page * 365.25);
+
+    resultat.textContent = "Le poids total du document est d'environ : " + calcul + " Mo par année";
+});
