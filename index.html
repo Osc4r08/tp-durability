@@ -74,8 +74,12 @@
       <p>Cette démarche s'appelle la sobriété numérique, ou <a href="https://fr.wikipedia.org/wiki/Informatique_durable">informatique durable (article Wikipédia)</a>.</p>
     </section>
     <section #calculateur>
-      <h2 id="calculateur">Combien pèse ma navigation ?</h2>
+      <h2>Combien pèse ma navigation ?</h2>
       <p>Le poids de votre navigation dépend de nombreux facteurs, notamment le nombre de pages visitées, la taille des images et vidéos, et les scripts chargés.</p>
+      <input type="number" id="nombre-pages" placeholder="Nombre de pages visitées">
+      <input type="number" id="poids-page" placeholder="Poids moyen d'une page (en Mo)">
+      <button id="calculer">Calculer le poids total</button>
+      <p id="resultat"></p>
     </section>  
   </main>
 
